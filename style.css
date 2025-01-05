@@ -1,0 +1,60 @@
+/* إعدادات عامة للصفحة */
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    color: #333;
+}
+
+header {
+    background-color: #2a3d4f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* تنسيق القصيدة */
+.poetry {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.poem {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poem h2 {
+    color: #2a3d4f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.poem p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* تنسيق التذييل */
+footer {
+    background-color: #2a3d4f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
